@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ionber.vidaapp.MainActivity">
+
+    <TextView
+        android:text="Hola que tal?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/miTxt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Escribe tu nombre" />
+
+    <Button
+        android:id="@+id/BotonSaludo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pulsa para un saludo" />
+    <TextView
+        android:id="@+id/miLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
